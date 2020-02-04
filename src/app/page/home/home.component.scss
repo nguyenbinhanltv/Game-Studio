@@ -1,0 +1,18 @@
+@mixin flexBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.behind-header {
+  @include flexBox();
+  margin-top: 7vh;
+
+  .main-screen {
+    @include flexBox();
+    width: 70%;
+    min-height: 70vh;
+    border: 2px solid black;
+  }
+}

@@ -1,0 +1,14 @@
+button {
+  font-size: 2rem;
+  border: white;
+  background: white;
+  cursor: pointer;
+  outline: none;
+  padding: 1vw;
+  font-weight: 1000;
+
+  &:hover {
+    color: white;
+    background: linear-gradient(to right, #e52d27, #b31217);;
+  }
+}

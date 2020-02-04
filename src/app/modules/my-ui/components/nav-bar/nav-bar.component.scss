@@ -1,0 +1,18 @@
+@mixin flexBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.nav-bar {
+  @include flexBox();
+  background: linear-gradient(to right, #e52d27, #b31217);
+  min-height: 10vh;
+  width: 100%;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.8);
+
+  app-logo {
+    @include flexBox();
+  }
+}
